@@ -1,0 +1,30 @@
+p {
+    color: red;
+    font-family: sans-serif;
+}
+p{
+    color: blue;
+}
+
+table { 
+    background-color: blueviolet;
+}
+
+div{
+    color:pink;
+
+}
+p.basics{
+    font-weight: 900;
+
+}
+#item{
+    border: pink;
+    border-style: dotted;
+}
+.basics #test{
+    color: red;
+}
+a:hover{
+    
+}
