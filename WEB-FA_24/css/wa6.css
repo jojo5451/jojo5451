@@ -1,0 +1,81 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  width: 80%;
+  max-width: 1200px; 
+}
+
+.image-container {
+  position: relative;
+  width: 45%; 
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.score-overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-left {
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+.team-right {
+  padding-left: 10px;
+}
+
+.score {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.info-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.product-info {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.details {
+  font-size: 1rem;
+  color: yellow;
+}
