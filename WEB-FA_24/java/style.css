@@ -1,14 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cd64e4;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
-    font-size: large;
 }
 
 h1 {
     color: #333;
-    font-size: medium;
 }
 
 label {
@@ -26,4 +24,11 @@ p {
     margin-top: 20px;
     font-size: 18px;
 }
+::backdrop
+{
+    background-color: pink;
+
+}
+
+
 
