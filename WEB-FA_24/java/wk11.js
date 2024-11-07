@@ -40,16 +40,32 @@ tellFortune(2, "Alex", "New York", "Engineer");
 tellFortune(3, "Jamie", "Tokyo", "Designer");
 tellFortune(1, "Sam", "Paris", "Chef");
 
-function calculateDogAge(dogAge){
-    dogAge_pr = dogAge * 7
-    print("You're dog is"+dogAge+"but in dog years they are"+dogAge_pr);
+function calculateDogAgeFromInput() {
+    let humanAge = parseInt(prompt("Enter your dog's age in human years:"));
+    let dogAge = humanAge * 7;
+    document.write(`Your doggie is ${dogAge} years old in dog years!<br>`);
+}
 
 
-};
+calculateDogAgeFromInput();
 
-calculateDogAge(3);
-calculateDogAge(5);
-calculateDogAge(1);
+function reverseNumber(num) {
+    let reversed = num.toString().split("").reverse().join("");
+    document.write(`Reversed number: ${reversed}<br>`);
+}
+
+reverseNumber(32243);
+reverseNumber(12345);
+
+function alphabetizeString(str) {
+    let sortedStr = str.split("").sort().join("");
+    document.write(`Alphabetized string: ${sortedStr}<br>`);
+}
+
+
+alphabetizeString("webmaster");
+alphabetizeString("javascript");
+
 
 
 
