@@ -13,13 +13,7 @@ const imageFiles = [
   'CDE509CC-A856-4B6A-8F9C-A46ABDBB7AC3_1_105_c.jpeg'
 ];
 
-const altTexts = [
-  'Red Bronco in Fall',
-  'Me and friends on roof',
-  'Friends and I in Madrid',
-  'Hike by Lake Isabelle',
-  'Chappell Roan at Lolla'
-];
+const altTexts = ['Red Bronco in Fall', 'Me and friends on roof','Friends and I in Madrid','Hike by Lake Isabelle','Chappell Roan at Lolla'];
 
 imageFiles.forEach((file, index) => {
   const newImage = document.createElement('img');
