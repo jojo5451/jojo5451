@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Expense Tracker",
+      "image": "assets/images/expenseTracker.png",
+      "description": "A tool for managing personal finances.",
+      "link": "https://example.com/expense-tracker"
+    },
+    {
+      "title": "Netflix Clone",
+      "image": "assets/images/netflixClone.png",
+      "description": "A clone of Netflix's UI for practice.",
+      "link": "https://example.com/netflix-clone"
+    },
+    {
+      "title": "Greeny Earth",
+      "image": "assets/images/greenyEarth.png",
+      "description": "A project promoting eco-friendly practices.",
+      "link": "https://example.com/greeny-earth"
+    }
+  ]
+  
