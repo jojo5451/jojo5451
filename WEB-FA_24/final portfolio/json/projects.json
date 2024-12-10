@@ -6,10 +6,10 @@
       "link": "https://example.com/expense-tracker"
     },
     {
-      "title": "Netflix Clone",
-      "image": "assets/images/netflixClone.png",
-      "description": "A clone of Netflix's UI for practice.",
-      "link": "https://example.com/netflix-clone"
+      "title": "Trump's Presidency and Unemployment",
+      "image": "images/unemployment rates in 2019.png",
+      "description": "A deep dive into the data surrounding Trump's presidency and if unemployment truly went up or down",
+      "link": "https://medium.com/information-expositions-fall-2023/how-trumps-presidency-affected-unemployment-and-graduation-rates-801280680187"
     },
     {
       "title": "Greeny Earth",
@@ -17,5 +17,7 @@
       "description": "A project promoting eco-friendly practices.",
       "link": "https://example.com/greeny-earth"
     }
+
+    
   ]
   

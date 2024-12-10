@@ -101,7 +101,7 @@ nav ul li {
     text-align: center; /* Center-align text */
     margin: 40px auto; /* Add space around the section */
     padding: 20px; /* Add padding inside the bio box */
-    max-width: 600px; /* Optional: Limit the width for better readability */
+    max-width: 80%;; /* Optional: Limit the width for better readability */
   }
   
   .bio-title {
@@ -347,7 +347,7 @@ nav ul li {
     display: flex;
     flex-wrap: wrap; /* Ensure responsiveness */
     align-items: center; /* Align items vertically */
-    justify-content: space-around; /* Space out elements */
+    justify-content: center; /* Space out elements */
     margin: 20px auto;
   }
   
@@ -359,6 +359,36 @@ nav ul li {
   .bio {
     flex: 1;
     margin: 10px;
+  }
+  .carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
   }
   
   
