@@ -42,30 +42,21 @@
           <ion-icon class="bars" name="menu-outline"></ion-icon>
         </button>
   </nav>
-
-  <div class="carousel-and-bio">
-  <div class="carousel">
-    <div class="carousel-images">
-        <img src="../images/5491A93C-8E70-45A1-BBDA-55D48F0482B7_1_105_c.jpeg" alt="ski josie" class="carousel-item">
-        <img src="../images/E56B37B2-BBE7-4FC7-BAD7-16F7D1B7BDFE_1_105_c.jpeg" alt="mountain josie" class="carousel-item">
-        <img src="../images/7FF24B30-E2EC-433E-8472-EC6EF3AB0C1F_1_105_c.jpeg" alt="spain josie" class="carousel-item">
-        <img src="../images/FFAA66A1-ADF7-4EA3-AB84-BAEBD7143AD2_1_105_c.jpeg" alt= "cubs josie" class="carousel-item">
-        <img src="../images/3C23AA09-A860-4CCC-8FE9-7E324F78B857_1_105_c.jpeg" alt = "rome josie" class="carousel-item">
-        <img src="../images/17227844-5863-4CC4-9BAB-0CA172BD4840_1_105_c.jpeg" alt= "prague josie" class="carousel-item"> 
-        </div>
-        <button class="carousel-control prev">❮</button>
-        <button class="carousel-control next">❯</button>
-    </div>
-        
-        
-  <section class="bio">
-    <h2 class="bio-title">About Me!</h2>
-      <p class="bio-text">
+  <section class="hero" id="about">
+    <img
+      src="../images/E56B37B2-BBE7-4FC7-BAD7-16F7D1B7BDFE_1_105_c.jpeg"
+      alt="josie mountains"
+      loading="lazy"
+      class="hero-img"/>
+    <section class="bio">
+      <h2 class="bio-title">About Me!</h2>
+        <p class="bio-text">
             My name is Josie Mahoney and I'm an Information Science Student with a minor in Creative Technology and Design.
             I am enrolled in my masters plan currently where I will be continuing my education in Information Science.
-      </p>
+        </p>
+        </div>
       </div>
-    </div>
+    </section>
     </section>
   
 
@@ -73,74 +64,26 @@
   <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        At 15, I had found a true love and passion for front end programming. I completed a computer science concentration
-        and was awarded a Merit Scholarship by CU Boulder. I have always had a passion for blending creativity and technology together. 
+        At just 15, I discovered a true love and passion for front-end programming, igniting a journey that has shaped my academic and professional pursuits. Through dedication and hard work, I earned a Computer Science concentration and was honored with a Merit Scholarship from CU Boulder, a recognition of both my academic achievements and my creative approach to problem-solving.
+
+        What drives me is the unique intersection of creativity and technology. I thrive in crafting experiences that not only look great but function seamlessly. My specialization lies in data visualization, where I turn raw numbers into compelling stories. Whether it’s exploring complex data sets or designing interactive graphics, I aim to communicate insights in a way that resonates with diverse audiences.
+        
+        In addition to data visualization, I’ve honed skills in User Experience Design, Programming, and Querying. Each project I undertake is a new opportunity to blend technical expertise with a user-centered approach, ensuring solutions are both innovative and impactful.
       </p>
       <p>
-        My specialization is data visualization. I 
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+        Feel free to explore my other pages for detailed insights into my projects, accomplishments, and the unique approaches I bring to my work. If you’re curious to learn more or have an exciting challenge in mind, don’t hesitate to reach out—I’d love to connect
       </p>
     </section>
 
-    <!-- Skills section -->
-    <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-html-5.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-css3.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-javascript.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-bootstrap.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-react-native.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
+    <div id="carousel" class="carousel">
+      <div id="carousel-project" class="carousel-project"></div>
+      <div class="carousel-controls">
+        <button id="prev" class="carousel-button">Previous</button>
+        <button id="next" class="carousel-button">Next</button>
       </div>
-    </section>
-
-
+    </div>
     
-    <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up">
-      <img src="../images/icons8-upward-arrow-24.png" class="socicon up-arrow" alt="scroll-up">
-    </i>
-
+    
     <!-- Footer section -->
     <footer>
       <p>© 2024 Josie Mahoney</p>
@@ -148,17 +91,8 @@
 
 
     <!-- Website scripts -->
-    <script src="../java/portfolio.js"></script>
+    <script src="../java/carousel.js"></script>
 
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
 
   </body>
 </html>

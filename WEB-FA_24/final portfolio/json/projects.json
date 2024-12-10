@@ -1,23 +1,38 @@
-[
-    {
-      "title": "Expense Tracker",
-      "image": "assets/images/expenseTracker.png",
-      "description": "A tool for managing personal finances.",
-      "link": "https://example.com/expense-tracker"
+{
+    "projects":[{
+    
+      "title": "Digital Legacy Clinic Wording",
+      "subdomain": "DLCW",
+      "image": "/Users/josiemahoney/Documents/GitHub/jojo5451/WEB-FA_24/final portfolio/images/portfoliopic1.png",
+      "category": ["Content, Front End Development"],
+      "description": "A workshop where students help people with pre-mortem planning or online affairs of a dead loved one and how to organize them.",
+      "link": "https://www.colorado.edu/center/digital-legacy/"
     },
     {
       "title": "Trump's Presidency and Unemployment",
-      "image": "images/unemployment rates in 2019.png",
+      "subdomain": "trump medium",
+      "image": "/Users/josiemahoney/Documents/GitHub/jojo5451/WEB-FA_24/final portfolio/images/portfoliopic2.png",
+      "category":["Data Visualization, Analysis, Content"],
       "description": "A deep dive into the data surrounding Trump's presidency and if unemployment truly went up or down",
       "link": "https://medium.com/information-expositions-fall-2023/how-trumps-presidency-affected-unemployment-and-graduation-rates-801280680187"
     },
     {
-      "title": "Greeny Earth",
-      "image": "assets/images/greenyEarth.png",
-      "description": "A project promoting eco-friendly practices.",
-      "link": "https://example.com/greeny-earth"
+      "title": "Colorado Symphony Website",
+      "subdomain":"CSW",
+      "image": "WEB-FA_24/final portfolio/images/greenyEarth.png",
+      "category": ["Content, Front End Development, Programming"],
+      "description": "A front end coding project where a tema of four of us built an informational website for the Colorado Symphony",
+      "link": "https://mathildesumner.github.io/MathildeSumner_css_repo.github.io/landing_page.html"
+    },
+    {
+      "title": "Should a State legalize Marijuana for more tax revenue?",
+      "subdomain": "marijuana medium",
+      "category":["Data Visualization, Analysis, Content"],
+      "image": "/Users/josiemahoney/Documents/GitHub/jojo5451/WEB-FA_24/final portfolio/images/portfoliopic4.png",
+      "description": "An analysis on the revenue the state of Colorado has earned since the legalization of Marijuana. Answers the question, should a state legalize marijuana for more tax revenue?",
+      "link": "https://medium.com/information-expositions-fall-2023/legalization-of-marijuana-and-how-it-benefits-the-economy-c8c058c3d1f9"
+      
     }
-
-    
-  ]
+    ]
+  }
   
