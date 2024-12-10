@@ -1,3 +1,4 @@
+//loading json file into java file 
 let proj;
 fetch("../json/projects.json")
   .then(response => {
@@ -9,7 +10,9 @@ fetch("../json/projects.json")
   }).catch(err =>{
     console.log(`error ${err}`);
   })
- 
+
+//this function is to load all of the corrrect variables from our json into our portfolio website
+// makes sure everything looks nice and neat
   function parseData(data) {
     for (let i = 0; i < data.projects.length; i++) {
       document.getElementById("projects").innerHTML += `
@@ -25,7 +28,7 @@ fetch("../json/projects.json")
             </div> </div> </a>`;
     }
   }
-
+//organizes and calls the buttons to be able to sort
 for (b of document.querySelectorAll("#buttons button")){
   b:addEventListener("click",e=>{
     const category = e.target.getAttribute("data-category");
@@ -34,7 +37,7 @@ for (b of document.querySelectorAll("#buttons button")){
 
   })
 }
-
+// this filters the projects by sorting them by key words
 function sortProjects(button){
   if(button === "Clear"){
     console.log("clearing");

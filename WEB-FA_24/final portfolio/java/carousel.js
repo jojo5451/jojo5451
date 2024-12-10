@@ -2,7 +2,7 @@
 let currentIndex = 0;
 let projectsData = [];
 
-// Fetch JSON data
+// Fetches JSON data and loads it in
 fetch("../json/projects.json")
   .then(response => response.json())
   .then(data => {
@@ -11,12 +11,12 @@ fetch("../json/projects.json")
   })
   .catch(error => console.error(`Error loading projects: ${error}`));
 
-
+//displaying the projects in the cards
 function displayProject(index) {
   const project = projectsData[index];
   const carouselContainer = document.getElementById("carousel-project");
   
-  // Clear the container
+  // Clear the container and bring in json variables
   carouselContainer.innerHTML = `
     <a href="${project.link}" target="_blank">
       <div class="carousel-item">
@@ -37,7 +37,7 @@ document.getElementById("prev").addEventListener("click", () => {
   currentIndex = (currentIndex - 1 + projectsData.length) % projectsData.length;
   displayProject(currentIndex);
 });
-
+// Other navigation button 
 document.getElementById("next").addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % projectsData.length;
   displayProject(currentIndex);

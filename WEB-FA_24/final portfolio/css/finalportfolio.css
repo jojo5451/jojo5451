@@ -97,8 +97,8 @@ nav ul li {
     margin: auto;
 }
 .hero img{
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
 }
   
 .bio {
@@ -129,8 +129,8 @@ nav ul li {
 
   .more-about {
     background-color:#C9F5D9;
-    padding: 30px;
-    border-radius: 6px;
+    padding: 40px;
+    border-radius: 8px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     
   }
@@ -179,10 +179,10 @@ nav ul li {
     text-decoration: none;
     color: black;
   }
-  .projects:hover{
-    background-color:#C9F5D9;
-  }
 
+  .row.project {
+    background-color: #C9F5D9;
+  }
   .project{
     background-color: var(--bg-color);
     padding: 32px 0;
@@ -330,7 +330,7 @@ nav ul li {
   }
   
   .projimg img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
   }
