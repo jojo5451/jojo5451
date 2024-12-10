@@ -35,7 +35,6 @@ for (b of document.querySelectorAll("#buttons button")){
   })
 }
 
-
 function sortProjects(button){
   if(button === "Clear"){
     console.log("clearing");

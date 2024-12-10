@@ -6,12 +6,12 @@ let projectsData = [];
 fetch("../json/projects.json")
   .then(response => response.json())
   .then(data => {
-    projectsData = data.projects; // Store projects in a global variable
-    displayProject(currentIndex); // Display the first project
+    projectsData = data.projects; 
+    displayProject(currentIndex); 
   })
   .catch(error => console.error(`Error loading projects: ${error}`));
 
-// Function to display a project
+
 function displayProject(index) {
   const project = projectsData[index];
   const carouselContainer = document.getElementById("carousel-project");
